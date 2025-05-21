@@ -14,6 +14,8 @@ package-mode = false
 python = ">=3.10,<3.12"
 langgraph = "*"
 langsmith = "*"
+langchain = {extras = ["openai"], version = "^0.3.25"}
+langchain-tavily = "^0.1.6"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
